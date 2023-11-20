@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-poppins{
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-inter{
+  font-family: 'Inter', sans-serif;
+}
+
+.font-jakarta{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-Gloria-Hallelujah{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.signUp::before{
+  content: '';
+  display: inline-block;
+  width: 80px;
+  border: 2px solid black;
+  margin-right:34px;
+  position: relative;
+  top: -5px;
+}
+
+.Madhushan::before{
+  content: '';
+  display: inline-block;
+  width: 25px;
+  border:1px solid black;
+}
+
+.borders-2{
+  border:2px solid #E8E8E8;
+}
+
+.borders-1{
+  border:2px solid #E8E8E8;
+}
+
+.borders-black-1{
+  border:2px solid #000000;
+}
+
+.borders-pink{
+  border:2px solid #FA5D9E;
+}
+
+.gridHome5{
+  display: grid;
+  grid-template-columns: 35% 1fr auto;
+  gap: 24px;
+}
+
+.range::before{
+  content: '';
+  height:calc(100% + 4px);
+  width: 0px;
+  border:1px solid black;
+  position: absolute;
+  left:5%; top:30px;
+}
+
+.ranger::before{
+  content: '';
+  width: 0px;
+  height:calc(100% - 15px);
+  border:1px dashed black;
+  position: absolute;
+  left:5%; top:28px;
+}
